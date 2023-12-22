@@ -4,61 +4,68 @@
     <title>Tables</title>
 </head>
 <body>
-    <table border="1px">
-        <tr>
-            <th>S.No</th>
-            <th>Name</th>
-            <th>ID</th>
-            <th>Address</th>
-            <th>contact</th>
-            <th>9 pm</th>
-            <th>10 pm</th>
-        </tr>
+    <table border="1px" cellpadding="10px" cellspacing="5px">
+        <thead>
+            <tr bgcolor="red">
+                <th width="200px">S.No</th>
+                <th>Name</th>
+                <th>ID</th>
+                <th>Address</th>
+                <th>contact</th>
+                <th>9 pm</th>
+                <th>10 pm</th>
+            </tr>
+        </thead>
 
+        <tbody>
+            
+            <tr>
+                <td>1</td>
+                <td>Ali</td>
+                <td>14000</td>
+                <td rowspan="2">Pakistan</td>
+                <td>030000000</td>
+                <td colspan="2">Science</td>
+            </tr>
 
-        <tr>
-            <td>1</td>
-            <td>Ali</td>
-            <td>14000</td>
-            <td rowspan="2">Pakistan</td>
-            <td>030000000</td>
-            <td colspan="2">Science</td>
-        </tr>
+            <tr>
+                <td>2</td>
+                <td>Maaz</td>
+                <td>14000000</td>
+                <td>030000111</td>
+                <td>Science</td>
+                <td>English</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Usman</td>
+                <td>130</td>
+                <td>US</td>
+                <td>030005555</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Usman</td>
+                <td>130</td>
+                <td rowspan="3"></td>
+                <td>030005555</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Usman</td>
+                <td>130</td>
+                <td>030005555</td>
+            </tr>
+        </tbody>
 
-        <tr>
-            <td>2</td>
-            <td>Maaz</td>
-            <td>14000000</td>
-            <td>030000111</td>
-            <td>Science</td>
-            <td>English</td>
-        </tr>
-        <tr>
-            <td>3</td>
-            <td>Usman</td>
-            <td>130</td>
-            <td>US</td>
-            <td>030005555</td>
-        </tr>
-        <tr>
-            <td>4</td>
-            <td>Usman</td>
-            <td>130</td>
-            <td rowspan="3"></td>
-            <td>030005555</td>
-        </tr>
-        <tr>
-            <td>5</td>
-            <td>Usman</td>
-            <td>130</td>
-            <td>030005555</td>
-        </tr>
-        <tr>
-            <td>6</td>
-            <td>Usman</td>
-            <td>130</td>
-            <td>030005555</td>
-        </tr>
+        <tfoot>
+            <tr>
+                <td>6</td>
+                <td>Usman</td>
+                <td>130</td>
+                <td>030005555</td>
+            </tr>
+        </tfoot>
     </table>
 </body>
 </html>
