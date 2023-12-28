@@ -4,22 +4,23 @@
     <title>Document</title>
 </head>
 <body>
-    <form>
+    <form> 
+        <!-- here form starts -->
         <p>
            Name: 
             <input type="text" placeholder="Input your name" 
-            size="100"  maxlength="1" name="username" 
+            size="50"  name="username" required
             />
         </p>
         <p>
             Password: 
              <input type="password" placeholder="Input your password" 
-             size="100" 
+             size="50" required
              />
          </p>
         <p>
             Contact: 
-             <input type="number" size="100" maxlength="11"
+             <input type="number" size="50" maxlength="11"
              />
          </p>
          <p>
@@ -33,17 +34,16 @@
 
             <p>Please select your favorite genre:
                 <br />
-                <input type="radio" name="gender" value="male" 
-                checked="checked"/>Male
-                <input type="radio" name="gender"  value="female" /> 
-                Female
+                <input type="radio" name="gender" value="male" id="male"
+                checked="checked"/>
+                <label for="male">Male</label>
+                <input type="radio" name="gender"  value="female" id="female"/> 
+                <label for="female">Female</label>
                 
                 </p>
                
-               
-               
-               
-               
+                
+                
                 <p>Please select your favorite music service(s):
                     <br />
                     <input type="checkbox" name="service" 
@@ -52,14 +52,46 @@
                     value="lastfm" /> Last.fm
                     <input type="checkbox" name="service" 
                     value="spotify" /> Spotify
-                   </p>
+                </p>
+                
+                
+                <p>What device do you listen to music on?</p>
+                <select>
+                    <option value="ipod"  selected> iPod</option>
+                    <option value="radio"> Radio</option>
+                    <option value="computer"> Computer</option>
+                </select>
+                <br />
+                <br />
+
+
+                <fieldset>
+                    <legend>Contact details</legend>
+                    <label>Email:<br />
+                    <input type="text" name="email" /></label>
+                    <br />
+                    <label>Mobile:<br />
+                    <input type="text" name="mobile" /></label>
+                    <br />
+                    <label>Telephone:<br />
+                    <input type="text" name="telephone" /></label>
+                </fieldset>
 
 
 
+                
+                <!-- <input type="file" />
+                <button >upload</button>  -->
+                
+                <input type="submit" value="Submit"/> 
 
-
-            </p>
+            
     </form>
+    <!-- footer -->
+
+
+
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis, nobis provident rem perspiciatis fuga tempora! Vitae, odio cupiditate sapiente quas error, nostrum ipsam fugit enim quod mollitia eaque sint dolorum?</p>
 
 </body>
 </html>
