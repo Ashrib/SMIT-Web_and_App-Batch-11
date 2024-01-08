@@ -1,0 +1,27 @@
+/* @font-face {
+    font-family: 'Rubik Glitch', system-ui;
+    src: url('https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap') ;
+} */
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap');
+
+p{
+    /* font-family: 'Rubik Glitch'; */
+    /* font-family: 'Inconsolata'; */
+    font-size: 1.5em;
+    text-transform: capitalize;
+    font-weight: 600;
+    /* font-style: italic; */
+    text-decoration: dotted;
+    line-height: 0.75em;
+
+    /* letter-spacing: 2em; */
+    /* word-spacing: 1.5em; */
+}
+h1{
+    text-align: justify;
+    
+}
+
+div{
+    text-align: justify;
+}
