@@ -5,12 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Facebook</title>
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
     <style>
-
 
         .container {
             display: flex;
-            width: 400px;
+            width: 600px;
             /* flex-flow: row wrap; */
             flex-direction: row;
             flex-wrap: wrap;
@@ -19,26 +19,43 @@
 
             /* align-content: baseline; */
             
-            
-            
             border: 2px solid rgb(0, 0, 0);
-            height: 400px;
             margin: 50px;
             /* flex-direction: column; */
             /* 
             align-items: stretch; */
             /* align-content: center; */
+            
+            
         }
+        
         .container > div {
             background-color: #ff5151;
-            width: 100px;
-            margin: 10px;
+            /* width: 100px;
+            margin: 10px; */
             padding: 5px;
             text-align: center;
             font-size: 30px;
+            flex-grow: 3;
         }
         .three{
-            align-self: stretch;
+            /* align-self: stretch; */
+            flex-grow: 1;
+        }
+        
+        .container2{
+            margin-bottom: 20px;
+            width: 300px;
+            height: 200px;
+            background-image: linear-gradient(red, yellow);
+        }
+        .container3{
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            background-image: url('./download.jpeg'); 
+            height: 200px;
+            width: 300px;
         }
         </style>
 </head>
@@ -55,6 +72,10 @@
         <div>seven</div>
     </div>
 
+    <div class="container2">
+    </div>
+    <div class="container3">
+    </div>
 </body>
 
 </html>

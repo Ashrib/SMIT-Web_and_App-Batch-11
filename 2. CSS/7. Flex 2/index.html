@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook</title>
+    <style>
+
+
+        .container {
+            display: flex;
+            /* width: 400px; */
+            /* flex-flow: row wrap; */
+            flex-direction: row;
+            flex-wrap: wrap;
+            /* justify-content:space-between ; */
+            align-items: center;
+
+            /* align-content: baseline; */
+            
+            
+            
+            border: 2px solid rgb(0, 0, 0);
+            height: 400px;
+            margin: 50px;
+            /* flex-direction: column; */
+            /* 
+            align-items: stretch; */
+            /* align-content: center; */
+            
+            /* order: 1; */
+            /* flex-basis: ; */
+            /* flex: 0 0 200px; */
+            /* margin: auto; */
+        }
+        .container > div {
+            /* flex-grow: 1 ; */
+            width: 100px;
+            /* margin: 10px; */
+            padding: 5px;
+            text-align: center;
+            font-size: 30px;
+        }
+        .one{
+            /* margin-right: auto; */
+            /* margin-top: auto; */
+            /* flex-basis: 300px; */
+            /* width: 300px; */
+            /* flex-shrink: 0; */
+            /* align-self: stretch; */
+            /* flex-basis: 200px;
+             */
+            /* flex-grow: 2; */
+            /* order: -1; */
+            /* flex: 1 0 200px; */
+        }
+        </style>
+</head>
+
+<body>
+
+    
+    <div class="container">
+        <div class="one" style="background-color: aqua;">one</div>
+        <div style="background-color: rgb(255, 179, 0);">two</div>
+        <div class="three" style="background-color: rgb(187, 255, 0);">three</div>
+        <div style="background-color: rgb(97, 121, 241);">four</div> 
+        <div style="background-color: rgb(249, 88, 247);">five</div>
+        <div style="background-color: rgb(255, 247, 0);">six</div>
+        <div style="background-color: rgb(255, 95, 95);">seven</div>
+    </div>
+</body>
+
+</html>
+
