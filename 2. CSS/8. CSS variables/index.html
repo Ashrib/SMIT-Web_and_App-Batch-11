@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+
+        :root{
+            --myColor: 2em;
+            --color2: linear-gradient(red, yellow);
+        }
+        
+
+        .container{
+            display: flex;
+            border: 2px solid black;
+            gap: 10px;
+            background: var(--color2);
+            font-size: var(--myColor);
+        }
+        .items{
+            --fontSize:3em;
+            padding: 5px;
+            border: 2px solid rgb(255, 0, 0);
+            font-size: var(--fontSize);
+
+
+        }
+        .six{
+            --color2:green;
+            background-color: var(--color2);
+        }
+        .seven{
+            background-color: var(--color2);
+            
+        }
+
+
+        
+
+
+
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="items">one</div>
+        <div class="items">two</div>
+        <div class="items">three</div>
+        <div class="items">four</div>
+        <div class="items">five</div>
+        <div class="six">six</div>
+        <div class="seven">seven</div>
+        
+    </div>
+
+</body>
+</html>
