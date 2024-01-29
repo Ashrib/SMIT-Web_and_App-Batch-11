@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+
+        /* :root{
+            --myColor: 2em;
+            --color2: linear-gradient(red, yellow);
+        }
+        
+
+        .container{
+            display: flex;
+            border: 2px solid black;
+            gap: 10px;
+            background: var(--color2);
+            font-size: var(--myColor);
+        }
+        .items{
+            --fontSize:3em;
+            padding: 5px;
+            border: 2px solid rgb(255, 0, 0);
+            font-size: var(--fontSize);
+
+
+        }
+        .six{
+            --color2:green;
+            background-color: var(--color2);
+        }
+        .seven{
+            background-color: var(--color2);
+            
+        } */
+
+
+        .container{
+            display: flex;
+            border: 2px solid black;
+            gap: 10px;
+        }
+        .items{
+            --fontSize:3em;
+            padding: 5px;
+            border: 2px solid rgb(255, 0, 0);
+            margin: 20px;
+
+        }
+
+
+
+        .nav{
+            display: flex;
+            background-color: rgb(249, 173, 73);
+            justify-content: space-between;
+            padding: 20px;
+        }
+        ul{
+            list-style:none ;
+            display: flex;
+            gap: 10px;
+        }
+        .click{
+            display: none;
+        }
+
+
+
+
+        @media screen and (max-width:425px){
+            .container{
+                flex-direction: column;
+                align-items: center;
+
+            }
+            .items{
+                margin: 5px;
+            }
+            .click{
+                display: flex;
+                align-self: flex-end;
+            }
+            ul{
+                display: none;
+
+            }
+            .nav{
+                justify-content: flex-end;
+            }
+        }
+
+        @media screen and (min-width:800px){
+            .container{
+                /* flex-direction: column; */
+                background-color: blue;
+            }
+        }
+
+
+        
+    </style>
+</head>
+<body>
+    <!-- <div class="container">
+        <div class="items">one</div>
+        <div class="items">two</div>
+        <div class="items">three</div>
+        <div class="items">four</div>
+        <div class="items">five</div>
+        <div class="six">six</div>
+        <div class="seven">seven</div>
+        
+    </div> -->
+
+    <div class="nav">
+        <ul>
+            <li><i class="fa-solid fa-house"></i> <span> home</span></li>
+            <li><i class="fa-solid fa-user"></i><span> about us</span></li>
+            <li><i class="fa-solid fa-headset"></i><span> contact</span></li>
+            <li><i class="fa-solid fa-gear"></i><span> setting</span></li>
+        </ul>
+        <div class="click">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/4aeacb7a4b.js" crossorigin="anonymous"></script>
+
+</body>
+</html>
