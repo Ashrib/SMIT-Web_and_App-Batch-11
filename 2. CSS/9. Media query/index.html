@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+
+
         .container{
             margin-top: 50px;
             display: flex;
@@ -52,20 +54,36 @@
                 align-self: flex-end;
             }
             ul{
-                display: none;
+                display: flex;
+                gap: 25px;
 
             }
             .nav{
-                justify-content: flex-end;
+                /* justify-content: flex-end; */
+            }
+            li span{
+                display: none;
             }
         }
 
-        @media screen and (min-width:800px){
+        /* @media screen and (min-width:800px){
             .container{
-                /* flex-direction: column; */
+                flex-direction: column;
                 background-color: blue;
             }
-        }
+        } */
+        /* @media screen and (max-width:800px){
+            .container{
+                background-color: blue;
+            }
+        } */
+        /* @media screen and (min-width:600px) and (max-width:800px){
+            .container{
+                background-color: blue;
+            }
+        } */
+        /* @media (600px <= width <= 800px) {
+} */
     </style>
 </head>
 <body>
@@ -77,9 +95,9 @@
             <li><i class="fa-solid fa-headset"></i><span> contact</span></li>
             <li><i class="fa-solid fa-gear"></i><span> setting</span></li>
         </ul>
-        <div class="click">
+        <!-- <div class="click">
             <i class="fa-solid fa-bars"></i>
-        </div>
+        </div> -->
     </div>
     <div class="container">
         <div class="items">one</div>
