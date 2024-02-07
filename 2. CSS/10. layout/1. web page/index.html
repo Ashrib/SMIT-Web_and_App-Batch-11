@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            padding: 0;
+            margin: 0;
+        }
+        .main-container{
+            height: 100vh;
+            width: 100vw;
+            /* background-color: rgb(247, 152, 27); */
+            overflow: scroll;
+        }
+        .content-box{
+            /* height: 500px; */
+            background-color: rgb(205, 203, 200);
+            display: flex;
+            border: 1px solid black;
+            padding: 20px;
+
+            position: relative;
+        }
+        .greybox{
+            height: 500px;
+            background-color: rgb(93, 93, 93);
+            width: 40%;
+            min-width: 200px;
+            margin-left: auto;
+        }
+        .img-box{
+            height: 400px;
+            width: 70%;
+            background-image: url(../download.jpeg);
+            position: absolute;
+            background-repeat: no-repeat;
+            background-size: cover;
+            top: 50px;
+            left: 100px;
+        }
+        .cards-box{
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            background-color: rebeccapurple;
+            width: 70%;
+            left: 7%;
+            top: 400px;
+            flex-wrap: wrap;
+            /* gap: 20px; */
+        }
+        .card{
+            height: 400px;
+            width: 30%;
+            border: 1px solid black;
+            background-color: aqua;
+            margin-top: 10px;
+            min-width: 200px;
+        }
+
+        @media screen and (max-width:768px) {
+            .cards-box{
+            justify-content: flex-start;
+            gap: 20px;
+
+            }
+            .card{
+                width: 40%;
+            }
+        }
+        @media screen and (max-width:425px) {
+            .cards-box{
+            justify-content: center;
+
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="main-container">
+        <div class="content-box">
+            <div class="greybox"></div>
+            <div class="img-box"></div>
+            <div class="cards-box">
+                <div class="card"></div>
+                <div class="card"></div>
+                <div class="card"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
