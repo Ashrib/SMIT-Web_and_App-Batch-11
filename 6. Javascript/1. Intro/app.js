@@ -33,19 +33,20 @@ num = num + 5;
 var myPerc = (y/100) * 100;
 alert(myPerc);
 
-
-// document.write(num);
-var t = 'hello'+'world';
+var t = 'hello'+'world'; //concatenation in variable
+document.write(t); //concatenation with string
 document.write("hello"+" world "); //concatenation with string
 
 
-var num1 = '90';
-// document.write(num1+5);
+var num1 = '90' +'40'; //concatenation with both strings
+document.write(num1);
+
+document.write(num1+5); //concatenation with string and number
 
 
 
 
-document.write('5'*5);
+document.write('5'*5); // do maths calculation
 
 
 
