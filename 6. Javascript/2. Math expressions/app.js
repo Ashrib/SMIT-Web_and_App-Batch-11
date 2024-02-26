@@ -29,7 +29,7 @@ console.log(5+5+'hello world'+5+5)
 
 console.log('hello','world')
 
-console.log(5+5+'hello world', 5+5)
+console.log(5+5+'hello world', 5+5) // when use ',' then no concatenation
 
 
 
