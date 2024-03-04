@@ -25,11 +25,74 @@ console.log(5+5+'hello world'+5+5)
 
 
 
+var a, b, c;
+
+
 
 
 console.log('hello','world')
 
 console.log(5+5+'hello world', 5+5) // when use ',' then no concatenation
+
+
+
+
+
+
+var spec = prompt("Your species?", "human");
+console.log(spec);
+
+
+
+// console.log(names)
+
+
+// q 1
+// console.log(names)
+
+// q2
+
+
+document.write("hello world")
+document.write("<br>")
+document.write("hello world")
+
+
+
+a = 1;
+
+
+b = a++;
+// b = 1
+// a = a+1
+console.log(a,b)
+
+
+
+b = ++a;
+
+//  a = a+1
+//  b = 3 
+
+
+
+
+b = 
+a = a+1
+console.log(a,b)
+
+
+c = a+b;
+
+// a = a + 1;
+// b = a;
+
+console.log(b)
+
+
+
+
+
 
 
 
